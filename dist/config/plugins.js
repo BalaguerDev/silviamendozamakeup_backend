@@ -14,6 +14,10 @@ module.exports = ({ env }) => ({
             settings: {
                 defaultFrom: 'tu-email@gmail.com',
                 defaultReplyTo: 'tu-email@gmail.com',
+                cors: {
+                    enabled: true,
+                    origin: ["*"],
+                },
             },
         },
     },
